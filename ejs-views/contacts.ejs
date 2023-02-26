@@ -35,7 +35,12 @@
 
       nav ul {
         margin: 0;
+        padding: 0;
         display: flex;
+      }
+
+      nav li {
+        list-style: none;
       }
 
       nav a {
@@ -45,33 +50,9 @@
         line-height: 60px;
       }
 
-      li {
-        list-style: none;
-      }
-
-      ul {
-        padding: 0;
-      }
-
       a {
         text-decoration: none;
         color: #fff;
-      }
-
-      article {
-        background-color: rgba(0, 0, 0, 0.4);
-        padding: 10px 20px;
-        border-radius: 3px;
-        margin-bottom: 10px;
-      }
-
-      .info {
-        display: flex;
-        justify-content: space-between;
-      }
-
-      h2 a {
-        color: aqua;
       }
     </style>
   </head>
@@ -84,25 +65,10 @@
         <li><a href="/contacts">Contacts</a></li>
       </ul>
     </nav>
-    <h1>Posts:</h1>
+    <h1>Contacts:</h1>
     <ul>
-      <li>
-        <article>
-          <h2>
-            <a href="/posts/1">About lorem</a>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            quidem provident, dolores, vero laboriosam nemo mollitia impedit
-            unde fugit sint eveniet, minima odio ipsum sed recusandae aut iste
-            aspernatur dolorem.
-          </p>
-          <div class="info">
-            <span>23/02/2023</span>
-            <span>Erkin Kubatov</span>
-          </div>
-        </article>
-      </li>
+      <li><a href="http://github.com/qoobatov" target="_blank">GitHub</a></li>
+      <li><a href="#">tel: +996770041698</a></li>
     </ul>
   </body>
 </html>
